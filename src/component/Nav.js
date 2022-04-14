@@ -28,18 +28,18 @@ const Navigation = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="/resume"
+            to="/services"
             className={({ isActive }) => (isActive ? "active" : "inactive")}
           >
-            Resume
+            Services
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink
-            to="/portfolio"
+            to="/projects"
             className={({ isActive }) => (isActive ? "active" : "inactive")}
           >
-            Portfolios
+            Projects
           </NavLink>
         </li>
         <li className="nav-item">
@@ -100,8 +100,8 @@ const NavStyle = styled.nav`
 
   .nav-items {
     .active {
-      background-color: var(--primary-color);
-      color: var(--white-color);
+      background-color: var(--color-secondary);
+      color: var(--color-white);
     }
     width: 100%;
     li {
@@ -123,7 +123,7 @@ const NavStyle = styled.nav`
           left: 0;
           width: 0;
           height: 100%;
-          background: var(--primary-color);
+          background: var(--color-secondary);
           transition: all 0.4s cubic-bezier(0.53, 0.25, 0.69, 0.85);
           opacity: 0.21;
         }

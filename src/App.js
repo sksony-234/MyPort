@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Sidebar from './component/Sidebar';
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Resume from './Pages/Resume'
-import Portfolio from './Pages/Portfolio';
+import Services from './Pages/Services'
+import Project from './Pages/Project';
 import Blogs from './Pages/Blogs';
 import Contact from './Pages/Contact'
 import {Routes, Route} from 'react-router-dom';
@@ -17,8 +17,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/resume" element={<Resume />}></Route>
-          <Route path="/portfolio" element={<Portfolio />}></Route>
+          <Route path="/services" element={<Services />}></Route>
+          <Route path="/projects" element={<Project />}></Route>
           <Route path="/blog" element={<Blogs/>}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
