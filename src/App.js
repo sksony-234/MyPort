@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import Sidebar from './component/Sidebar';
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Services from './Pages/Services'
-import Project from './Pages/Project';
-import Blogs from './Pages/Blogs';
-import Contact from './Pages/Contact'
+import Home from './Pages/home/Home'
+import About from './Pages/about/About'
+import Services from './Pages/service/Services'
+import Project from './Pages/project/Project';
+import Blogs from './Pages/blogs/Blogs';
+import Contact from './Pages/contact/Contact'
 import {Routes, Route} from 'react-router-dom';
 
 const App = () => {

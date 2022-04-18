@@ -46,7 +46,11 @@ const GlobalStyle = createGlobalStyle`
         font-size:1.1rem;
         color:var(--color-white);
         transition:all .4s ease-in-out;
-        ${'' /* padding:0rem 3.5rem; */}
+        padding:0rem 3.5rem;
+    }
+    section{
+        min-height:100vh;
+        padding:1.2rem 0;
     }
     a{
         color:inherit;

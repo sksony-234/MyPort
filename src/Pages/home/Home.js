@@ -1,11 +1,18 @@
 import React from 'react'
 import styled from 'styled-components';
+import Typical from "react-typical";
 
 const Home = () => {
   return (
     <HomeStyle>
           <div className="name">
-                <h1>Hi I'm <span>Siddharth Sony</span>. A Web Developer</h1>
+                <h1>Hi I'm <span>Siddharth Sony</span>.</h1>
+                <h1><Typical
+                  steps={['A Full-Stack Developer', 3000, 'SoftWare Developer', 3000, 'Competetive Coder', 3000]}
+                  loop={Infinity}
+                  wrapper="p"
+                />
+                </h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Exercitationem quidem assumenda tempore earum accusamus consequatur.
